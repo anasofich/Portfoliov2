@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/wzo2gnj.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" sizes="36x36" href="../images/favicon.png" />
+    <title>Film Photography Club</title>
+  </head>
+  <body id="projectPage" class="fpc">
+    <header>
+      <div class="loaderWrapper">
+        <div class="loaderText">Loading</div>
+        <img src="../SVG/loader.svg" alt="loader" />
+      </div>
+
+      <section id="menuSec">
+        <nav>
+          <div class="menuTop">
+            <div class="closeMenu" onclick="closeMenu()">X</div>
+          </div>
+          <div class="menuOptions">
+            <a href="../index.html" onclick="closeMenu()">Home</a>
+            <a href="../index.html#projectsSec" onclick="closeMenu()">Work</a>
+            <a href="about-me.html" onclick="closeMenu()">About me</a>
+          </div>
+        </nav>
+        <div class="openMenu" onclick="openMenu()">MENU</div>
+      </section>
+
+      <div class="logo2">
+        <a href="../index.html"><img src="../SVG/logo.svg" alt="logo" /></a>
+      </div>
+    </header>
+
+    <main>
+      <div class="projectIntro fade-in2">
+        <div class="projectTitle">
+          <div class="projectName"><h1>film photography club</h1></div>
+          <div class="programs"><span>Tools used:</span> Figma, HTML, CSS, JS, rest.db, Ps, Ai</div>
+        </div>
+        <div class="projectDesc">
+          <div>
+            Film Photography Club was a school project in which together with a group, we had to find a common interest and create a website related to it, which could be one giving general information about the topic or creating a community. An
+            important requirement was to implement a dynamic feature in the site that would fetch and post data from/to a database.
+          </div>
+          <div class="descButtons">
+            <button class="descButtonsB"><a href="https://malagorzata.github.io/web-35mm/" target="_blank">VIEW FINAL SOLUTION</a></button>
+            <button class="descButtonsB"><a href="#projectDoc">READ DOCUMENTATION</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectScroll">
+        <div class="projectScrollDiv">
+          <div class="circle">
+            <div class="scrollText">
+              <p>scroll scroll scroll scroll scroll</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pIntroPhotos fade-in2">
+        <div class="prImg"><img src="../images/fpc/fpc1.webp" alt="fpc1" /></div>
+        <div class="prImg"><img src="../images/fpc/fpc2.webp" alt="fpc2" /></div>
+        <div class="prImg"><img src="../images/fpc/fpc3.webp" alt="fpc3" /></div>
+        <div class="prImg"><img src="../images/fpc/fpc4.webp" alt="fpc4" /></div>
+      </div>
+
+      <div class="projectSec" id="projectDoc">
+        <div class="S1text processText fade-in3">
+          <h1>Finding a common interest</h1>
+          <p>
+            First of all, we had to create groups based on an interest we had in common. I joined a group with two other girls and our common interest was film photography<br />
+            <br />
+            We decided to create a website that would not only introduce newbies to film photography, but it would also be a community in which people share tips about film photography, share their photographs on the portfolio page, and it even
+            includes a list of different film cameras where you can filter the cameras depending on what you’re looking for.
+          </p>
+        </div>
+        <div class="S1Img processImg fade-in3">
+          <img src="../images/fpc/img1.webp" alt="img1" />
+        </div>
+      </div>
+
+      <div class="projectSec pSec2">
+        <div class="S2Img processImg fade-in3">
+          <img src="../images/fpc/styletile.webp" alt="styletile" />
+        </div>
+        <div class="S2text processText fade-in3">
+          <h1>Designing the website</h1>
+          <p>
+            After having an idea of what we wanted to include on the website, we defined a target audience and made personas. With the help of the personas, we made style tiles and started deciding on the design of the website that would be suitable
+            for the target audience.
+            <br />
+            <br />
+            We also did some research on some of the most popular film cameras based on type, level and format, and created a database of these cameras to create the “find your match” page that fetches data from rest.db by using an API to display the
+            cameras on the site.
+          </p>
+        </div>
+      </div>
+
+      <div class="projectSec">
+        <div class="S3text processText fade-in3">
+          <h1>The solution</h1>
+          <p>
+            At the end we created a fully functional site with a lot of different and relevant features for both newbies to advanced photographers.
+            <br />
+            <br />
+            <b>Note:</b> rest.db changed their guidelines after we finished this project, so the images fetched from the database don’t get displayed anymore.
+          </p>
+        </div>
+        <div class="S3Img processImg fade-in3">
+          <img src="../images/fpc-mockup.jpg" alt="" />
+          <button class="viewSolution"><a href="https://malagorzata.github.io/web-35mm/" target="_blank">VIEW FINAL SOLUTION</a></button>
+        </div>
+      </div>
+
+      <div class="projectDocs">
+        <h1 class="fade-in2">project documentation</h1>
+        <div class="docList">
+          <div class="singleDoc fade-in2">
+            <div class="docLeo"><img src="../SVG/pinkLeo.svg" alt="pinkLeo" /></div>
+            <a href="https://docs.google.com/document/d/1MDdBGSIeYA7dSJ7AlbswMZTRGpAxJ4UsNCygGQdv8Ds/edit?usp=sharing" target="_blank">Documentation log</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prevNextProject">
+        <div class="prevProject sliderLeft">
+          <a href="latelier-michaud.html">
+            <div class="previous">previous</div>
+            <div class="pProject">project</div>
+            <div class="preProjectName">web solution for L'atelier Michaud</div>
+          </a>
+        </div>
+
+        <div class="nextProject sliderRight">
+          <a href="save-the-dead.html">
+            <div class="next">next</div>
+            <div class="nProject">project</div>
+            <div class="nextProjectName">save the dead: a video game</div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="fup">
+        <div class="lets">Let's</div>
+        <div class="getIT">get in touch :)</div>
+      </div>
+      <div class="fmiddle">
+        <div class="socialF">
+          <div class="fTitle">Social</div>
+          <div class="fLinks">
+            <a href="https://www.instagram.com/anasofich/" target="_blank">instagram</a>
+            <a href="https://www.linkedin.com/in/ana-sofia-castellanos-9a06611b5/" target="_blank">linkedin</a>
+          </div>
+        </div>
+        <div class="contactF">
+          <div class="fTitle">Contact</div>
+          <div class="fLinks">
+            <a href="mailto:anax1567@stud.kea.dk">email</a>
+          </div>
+        </div>
+        <div class="aboutF">
+          <div class="fTitle">About</div>
+          <div class="fLinks">
+            <a href="about-me.html">about me</a>
+          </div>
+        </div>
+      </div>
+      <div class="fbottom">
+        <div>made with 💗 by</div>
+        <div>
+          <a class="fLogo" href="../index.html"><img src="../images/logo.png" alt="logo" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="project-pages.js"></script>
+  </body>
+</html>

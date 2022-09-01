@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.4 71.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #03f;
+        stroke-miterlimit: 4;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="proyectArrow">
+    <path id="projectArrow2" class="cls-1 arrowPath" d="M9.66,16.18l0-5.77A4.38,4.38,0,0,1,14.1,6h0l50.55.27a4.39,4.39,0,0,1,4.38,4.41v0l-.29,50.56a4.39,4.39,0,0,1-4.41,4.38h0l-5.77,0a4.41,4.41,0,0,1-4.38-4.45V61.1l.92-30.59L17.51,67.67a4.41,4.41,0,0,1-6.23,0v0L7.13,63.45a4.4,4.4,0,0,1,0-6.22l0,0L44.76,20.05l-30.61.57a4.4,4.4,0,0,1-4.49-4.29Z"/>
+  </g>
+</svg>

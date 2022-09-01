@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1598 700">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c0;
+      }
+
+      .cls-2 {
+        fill: #f39;
+      }
+
+      .cls-3 {
+        fill: #3cc;
+      }
+
+      .cls-4 {
+        fill: #03f;
+      }
+
+      .cls-5 {
+        fill: #c6f;
+      }
+
+      .cls-6 {
+        fill: #fc3;
+      }
+
+      .cls-7 {
+        fill: #f93;
+      }
+    </style>
+  </defs>
+  <g id="loader">
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-1" x="-0.16" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-2" data-name="Rectangle 12-2" class="cls-2" x="-0.16" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-3" data-name="Rectangle 12-3" class="cls-3" x="-0.16" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-4" data-name="Rectangle 12-4" class="cls-4" x="177.45" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-5" data-name="Rectangle 12-5" class="cls-5" x="177.45" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-6" data-name="Rectangle 12-6" class="cls-1" x="177.45" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-7" data-name="Rectangle 12-7" class="cls-2" x="355.06" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-8" data-name="Rectangle 12-8" class="cls-6" x="355.06" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-9" data-name="Rectangle 12-9" class="cls-4" x="355.06" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-10" data-name="Rectangle 12-10" class="cls-5" x="532.68" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-11" data-name="Rectangle 12-11" class="cls-7" x="532.68" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-12" data-name="Rectangle 12-12" class="cls-2" x="532.68" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-13" data-name="Rectangle 12-13" class="cls-6" x="710.3" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-14" data-name="Rectangle 12-14" class="cls-3" x="710.3" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-15" data-name="Rectangle 12-15" class="cls-5" x="710.3" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-16" data-name="Rectangle 12-16" class="cls-7" x="887.91" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-17" data-name="Rectangle 12-17" class="cls-1" x="887.91" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-18" data-name="Rectangle 12-18" class="cls-6" x="887.91" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-19" data-name="Rectangle 12-19" class="cls-5" x="-0.16" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-20" data-name="Rectangle 12-20" class="cls-6" x="177.45" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-21" data-name="Rectangle 12-21" class="cls-7" x="355.06" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-22" data-name="Rectangle 12-22" class="cls-3" x="532.68" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-23" data-name="Rectangle 12-23" class="cls-1" x="710.3" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-24" data-name="Rectangle 12-24" class="cls-4" x="887.91" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-25" data-name="Rectangle 12-25" class="cls-3" x="1065.53" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-26" data-name="Rectangle 12-26" class="cls-4" x="1065.53" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-27" data-name="Rectangle 12-27" class="cls-7" x="1065.53" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-28" data-name="Rectangle 12-28" class="cls-2" x="1065.53" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-29" data-name="Rectangle 12-29" class="cls-1" x="1243.15" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-30" data-name="Rectangle 12-30" class="cls-2" x="1243.15" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-31" data-name="Rectangle 12-31" class="cls-3" x="1243.15" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-32" data-name="Rectangle 12-32" class="cls-4" x="1420.76" y="-0.15" width="177.61" height="175"/>
+    <rect id="Rectangle_12-33" data-name="Rectangle 12-33" class="cls-5" x="1420.76" y="174.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-34" data-name="Rectangle 12-34" class="cls-1" x="1420.76" y="349.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-35" data-name="Rectangle 12-35" class="cls-5" x="1243.15" y="524.85" width="177.61" height="175"/>
+    <rect id="Rectangle_12-36" data-name="Rectangle 12-36" class="cls-6" x="1420.76" y="524.85" width="177.61" height="175"/>
+  </g>
+</svg>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/wzo2gnj.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" sizes="36x36" href="../images/favicon.png" />
+    <title>Watch configurator</title>
+  </head>
+  <body id="projectPage" class="watchConfigurator">
+    <header>
+      <div class="loaderWrapper">
+        <div class="loaderText">Loading</div>
+        <img src="../SVG/loader.svg" alt="loader" />
+      </div>
+
+      <section id="menuSec">
+        <nav>
+          <div class="menuTop">
+            <div class="closeMenu" onclick="closeMenu()">X</div>
+          </div>
+          <div class="menuOptions">
+            <a href="../index.html" onclick="closeMenu()">Home</a>
+            <a href="../index.html#projectsSec" onclick="closeMenu()">Work</a>
+            <a href="about-me.html" onclick="closeMenu()">About me</a>
+          </div>
+        </nav>
+        <div class="openMenu" onclick="openMenu()">MENU</div>
+      </section>
+
+      <div class="logo2">
+        <a href="../index.html"><img src="../SVG/logo.svg" alt="logo" /></a>
+      </div>
+    </header>
+
+    <main>
+      <div class="projectIntro fade-in2">
+        <div class="projectTitle">
+          <div class="projectName"><h1>Watch configurator</h1></div>
+          <div class="programs"><span>Tools used:</span> Ps, Ai, Xd, HTML, CSS, JS</div>
+        </div>
+        <div class="projectDesc">
+          <div>
+            The aim of this project was to create a configurator of our choice. In my group we decided to do a watch configurator. The website should show an image of the product and the user should be able to add features to the product as well as
+            change colors on parts of the product
+          </div>
+          <div class="descButtons">
+            <button class="descButtonsB"><a href="https://anasofich.github.io/12C.02.04---Create-your-own-configurator/" target="_blank">VIEW FINAL SOLUTION</a></button>
+            <button class="descButtonsB"><a href="#projectDoc">READ DOCUMENTATION</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectScroll">
+        <div class="projectScrollDiv">
+          <div class="circle">
+            <div class="scrollText">
+              <p>scroll scroll scroll scroll scroll</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pIntroPhotos fade-in2">
+        <div class="prImg"><img src="../images/watch-configurator/wc1.webp" alt="wc1" /></div>
+        <div class="prImg"><img src="../images/watch-configurator-mockup.jpg" alt="wc2" /></div>
+        <div class="prImg"><img src="../images/watch-configurator/wc3.webp" alt="wc3" /></div>
+      </div>
+
+      <div class="projectSec" id="projectDoc">
+        <div class="S1text processText fade-in3">
+          <h1>Deciding on the configurable features</h1>
+          <p>
+            Once we had decided that we would use a watch as our product, we had to get all the necessary parts of the watch ready to be configurable.<br />
+            <br />
+            To do so, we used Ps and Ai to cut all the different images for the strap and dial options, and to create vector shapes to change the color of the case, buckle and dial.
+          </p>
+        </div>
+        <div class="S1Img processImg fade-in3">
+          <img src="../images/watch-configurator/photoshop.webp" alt="photoshop" />
+        </div>
+      </div>
+
+      <div class="projectSec pSec2">
+        <div class="S2Img processImg fade-in3">
+          <img src="../images/watch-configurator/xd-prototype.webp" alt="XD prototype" />
+        </div>
+        <div class="S2text processText fade-in3">
+          <h1>Creating a prototype</h1>
+          <p>
+            After having all the configurable elements ready, we created an Xd prototype to visualize what the configurator would look like and how to include the different features.
+            <br />
+            <br />
+            We played around with different colors and arrangement of elements until we found the best way to display all features.
+          </p>
+        </div>
+      </div>
+
+      <div class="projectSec">
+        <div class="S3text processText fade-in3">
+          <h1>The solution</h1>
+          <p>
+            With the help of the prototype, we coded the configurator with HTML, CSS and JS. In JS we had to make use of a lot of functions, event listeners and built in functions like getBoundingClientRect(), to add all the different features and
+            make the animations work.
+            <br />
+            <br />
+            All these steps allowed us to create a functional configurator with all the intended features.
+          </p>
+        </div>
+        <div class="S3Img processImg fade-in3">
+          <img src="../images/watch-configurator-mockup.jpg" alt="" />
+          <button class="viewSolution"><a href="https://anasofich.github.io/12C.02.04---Create-your-own-configurator/" target="_blank">VIEW FINAL SOLUTION</a></button>
+        </div>
+      </div>
+
+      <div class="prevNextProject">
+        <div class="prevProject sliderLeft">
+          <a href="silfen.html">
+            <div class="previous">previous</div>
+            <div class="pProject">project</div>
+            <div class="preProjectName">web solution for SILFEN</div>
+          </a>
+        </div>
+
+        <div class="nextProject sliderRight">
+          <a href="RE-tshirts.html">
+            <div class="next">next</div>
+            <div class="nProject">project</div>
+            <div class="nextProjectName">RE: sustainable t-shirts</div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="fup">
+        <div class="lets">Let's</div>
+        <div class="getIT">get in touch :)</div>
+      </div>
+      <div class="fmiddle">
+        <div class="socialF">
+          <div class="fTitle">Social</div>
+          <div class="fLinks">
+            <a href="https://www.instagram.com/anasofich/" target="_blank">instagram</a>
+            <a href="https://www.linkedin.com/in/ana-sofia-castellanos-9a06611b5/" target="_blank">linkedin</a>
+          </div>
+        </div>
+        <div class="contactF">
+          <div class="fTitle">Contact</div>
+          <div class="fLinks">
+            <a href="mailto:anax1567@stud.kea.dk">email</a>
+          </div>
+        </div>
+        <div class="aboutF">
+          <div class="fTitle">About</div>
+          <div class="fLinks">
+            <a href="about-me.html">about me</a>
+          </div>
+        </div>
+      </div>
+      <div class="fbottom">
+        <div>made with 💗 by</div>
+        <div>
+          <a class="fLogo" href="../index.html"><img src="../images/logo.png" alt="logo" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="project-pages.js"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/wzo2gnj.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" sizes="36x36" href="../images/favicon.png" />
+    <title>Web solution for SILFEN</title>
+  </head>
+  <body id="projectPage" class="silfen">
+    <header>
+      <div class="loaderWrapper">
+        <div class="loaderText">Loading</div>
+        <img src="../SVG/loader.svg" alt="loader" />
+      </div>
+
+      <section id="menuSec">
+        <nav>
+          <div class="menuTop">
+            <div class="closeMenu" onclick="closeMenu()">X</div>
+          </div>
+          <div class="menuOptions">
+            <a href="../index.html" onclick="closeMenu()">Home</a>
+            <a href="../index.html#projectsSec" onclick="closeMenu()">Work</a>
+            <a href="about-me.html" onclick="closeMenu()">About me</a>
+          </div>
+        </nav>
+        <div class="openMenu" onclick="openMenu()">MENU</div>
+      </section>
+
+      <div class="logo2">
+        <a href="../index.html"><img src="../SVG/logo.svg" alt="logo" /></a>
+      </div>
+    </header>
+
+    <main>
+      <div class="projectIntro fade-in2">
+        <div class="projectTitle">
+          <div class="projectName"><h1>web solution for SILFEN</h1></div>
+          <div class="programs"><span>Tools used:</span> Xd, Ps, Ai, HTML, CSS, JS</div>
+        </div>
+        <div class="projectDesc">
+          <div>
+            For this project I worked in group for the client Silfen, a Danish accessory brand. The client wasn’t satisfied with their web solution since they felt it didn’t showcase the brand’s identity.<br />
+            <br />
+            Our task was to come up with a proposal on how to improve their current solution and how to implement their new sub-brand, Silfen Play.
+          </div>
+          <div class="descButtons">
+            <button class="descButtonsB"><a href="https://anasofich.github.io/SILFEN-website/index.html" target="_blank">VIEW FINAL SOLUTION</a></button>
+            <button class="descButtonsB"><a href="#projectDoc">READ DOCUMENTATION</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectScroll">
+        <div class="projectScrollDiv">
+          <div class="circle">
+            <div class="scrollText">
+              <p>scroll scroll scroll scroll scroll</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pIntroPhotos fade-in2">
+        <div class="prImg"><img src="../images/silfen/silfen1.webp" alt="RE1" /></div>
+        <div class="prImg"><img src="../images/silfen/silfen2.webp" alt="RE2" /></div>
+        <div class="prImg"><img src="../images/silfen/silfen3.webp" alt="RE3" /></div>
+        <div class="prImg"><img src="../images/silfen/silfen4.webp" alt="RE4" /></div>
+      </div>
+
+      <div class="projectSec" id="projectDoc">
+        <div class="S1text processText fade-in3">
+          <h1>Solving the problem</h1>
+          <p>
+            In order to solve the client’s problem, we first needed to identify the things that were wrong with their current solution. <br />
+            <br />
+            We conducted several user tests, like Think Aloud Test and surveys, which gave us a great insight into which things should be improved and implemented on the website to create a better UX.
+          </p>
+        </div>
+        <div class="S1Img processImg fade-in3">
+          <img src="../images/silfen/silfenwebsite.webp" alt="silfen website" />
+        </div>
+      </div>
+
+      <div class="projectSec pSec2">
+        <div class="S2Img processImg fade-in3">
+          <img src="../images/silfen/xd-prototype.webp" alt="XD prototype" />
+        </div>
+        <div class="S2text processText fade-in3">
+          <h1>Translating research results into ideas</h1>
+          <p>
+            After having a better understanding of which features should be implemented and the likes of the target audience, we researched design patterns to find common solutions to the recurring problems we wanted to solve. It was important to
+            follow these patterns, but also including the playful and colorful universe of Silfen.
+            <br />
+            <br />
+            We gathered a lot of interesting ideas and created a prototype of the website to have a visual idea of what everything would look like merged.
+          </p>
+        </div>
+      </div>
+
+      <div class="projectSec">
+        <div class="S3text processText fade-in3">
+          <h1>The solution</h1>
+          <p>
+            After testing the prototype and adding improvements, we divided the coding parts and created a functional and attractive solution that showcased the brand’s identity. We made the solution dynamic, by using rest.db to create a database
+            with all the products and fetching it with an API with JS.
+          </p>
+        </div>
+        <div class="S3Img processImg fade-in3">
+          <img src="../images/silfen-mockup.jpg" alt="" />
+          <button class="viewSolution"><a href="https://anasofich.github.io/SILFEN-website/index.html" target="_blank">VIEW FINAL SOLUTION</a></button>
+        </div>
+      </div>
+
+      <div class="projectDocs">
+        <h1 class="fade-in2">project documentation</h1>
+        <div class="docList">
+          <div class="singleDoc fade-in2">
+            <div class="docLeo"><img src="../SVG/pinkLeo.svg" alt="pinkLeo" /></div>
+            <a href="../documents/team02_tripleang_documentation_report.pdf" target="_blank">Documentation report</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prevNextProject">
+        <div class="prevProject sliderLeft">
+          <a href="save-the-dead.html">
+            <div class="previous">previous</div>
+            <div class="pProject">project</div>
+            <div class="preProjectName">save the dead: a video game</div>
+          </a>
+        </div>
+
+        <div class="nextProject sliderRight">
+          <a href="watch-configurator.html">
+            <div class="next">next</div>
+            <div class="nProject">project</div>
+            <div class="nextProjectName">watch configurator</div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="fup">
+        <div class="lets">Let's</div>
+        <div class="getIT">get in touch :)</div>
+      </div>
+      <div class="fmiddle">
+        <div class="socialF">
+          <div class="fTitle">Social</div>
+          <div class="fLinks">
+            <a href="https://www.instagram.com/anasofich/" target="_blank">instagram</a>
+            <a href="https://www.linkedin.com/in/ana-sofia-castellanos-9a06611b5/" target="_blank">linkedin</a>
+          </div>
+        </div>
+        <div class="contactF">
+          <div class="fTitle">Contact</div>
+          <div class="fLinks">
+            <a href="mailto:anax1567@stud.kea.dk">email</a>
+          </div>
+        </div>
+        <div class="aboutF">
+          <div class="fTitle">About</div>
+          <div class="fLinks">
+            <a href="about-me.html">about me</a>
+          </div>
+        </div>
+      </div>
+      <div class="fbottom">
+        <div>made with 💗 by</div>
+        <div>
+          <a class="fLogo" href="../index.html"><img src="../images/logo.png" alt="logo" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="project-pages.js"></script>
+  </body>
+</html>

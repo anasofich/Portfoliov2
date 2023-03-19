@@ -303,8 +303,8 @@ body {
 
 .introText {
   text-align: center;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 18vw;
+  padding-right: 18vw;
   font-size: 3.5rem;
   color: var(--color-font2);
   padding-top: 22rem;
@@ -1316,7 +1316,6 @@ button.viewSolution a {
 
 .aboutText {
   width: 50%;
-  text-align: justify;
   font-size: 1.2rem;
 }
 
